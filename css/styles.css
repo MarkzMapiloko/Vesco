@@ -101,7 +101,7 @@ p {
 #home-cover,
 #home-heading,
 #home-btn {
-  animation-duration: 0.5;
+  animation-duration: 0.5s;
 }
 #home-cover {
   animation-delay: 0.1s;
@@ -153,7 +153,7 @@ p {
   background-color: #34c6d3;
 }
 .service-item-title h3 {
-  font-style: 20px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0 0 10px 0;
   padding-left: 75px;
@@ -221,7 +221,7 @@ p {
   padding: 10px 0 30px 0;
 }
 h4.team-member-name {
-  font-style: 22px;
+  font-size: 22px;
   font-weight: 700;
   letter-spacing: 1px;
   padding-top: 20px;
@@ -342,7 +342,7 @@ h3.pricing-value {
   font-weight: 700;
 }
 h3.pricing-value sup {
-  font-size: 28;
+  font-size: 28px;
   font-weight: normal;
   vertical-align: super;
 }
@@ -427,6 +427,10 @@ footer {
 address {
   color: #fff;
 }
+address strong{
+  font-size: 16px;
+}
+
 address strong,
 #phone-fax-email {
   letter-spacing: 1px;
